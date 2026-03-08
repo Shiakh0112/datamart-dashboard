@@ -1,0 +1,15 @@
+{
+  "name": "datamart-dashboard",
+  "version": "1.0.0",
+  "description": "High-performance full-stack dashboard with React, Node.js, and Supabase",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["react", "nodejs", "express", "supabase", "dashboard"],
+  "author": "",
+  "license": "MIT"
+}
