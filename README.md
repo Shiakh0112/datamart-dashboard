@@ -46,25 +46,33 @@ DataMart is a high-performance dashboard application that efficiently handles **
 ## 🔗 Live Demo & Links
 
 ### 🌐 **Live Application**
-- **Frontend**: `http://localhost:3000` (Development)
-- **Backend API**: `http://localhost:5000/api/v1` (Development)
-- **Production**: [Your deployed URL]
+- **Frontend**: https://datamart-dashboard.vercel.app
+- **Backend API**: https://datamart-dashboard.onrender.com/api/v1
+- **Status**: ✅ Live & Running
 
 ### 📦 **Repository**
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/datamart-dashboard.git
+git clone https://github.com/Shiakh0112/datamart-dashboard.git
 cd datamart-dashboard
 ```
+
+**GitHub**: https://github.com/Shiakh0112/datamart-dashboard
 
 ### 🗄️ **Database**
 - **Supabase Project**: https://scejokgqjvhoyrettaip.supabase.co
 - **Dashboard**: https://supabase.com/dashboard
 
 ### 📡 **API Endpoints**
-- `GET /api/v1/products` - Get paginated products
-- `GET /api/v1/products/:id` - Get product by ID
+- Base URL: `https://datamart-dashboard.onrender.com/api/v1`
+- `GET /products` - Get paginated products
+- `GET /products/:id` - Get product by ID
 - Query params: `page`, `limit`, `search`, `category`
+
+**Try it now:**
+```bash
+curl https://datamart-dashboard.onrender.com/api/v1/products
+```
 
 ---
 
@@ -626,7 +634,10 @@ MIT License
 
 ## 👨💻 Author
 
-GitHub: [@yourusername](https://github.com/yourusername)
+**Shiakh0112**
+- GitHub: [@Shiakh0112](https://github.com/Shiakh0112)
+- Repository: [datamart-dashboard](https://github.com/Shiakh0112/datamart-dashboard)
+- Live Demo: [https://datamart-dashboard.vercel.app](https://datamart-dashboard.vercel.app)
 
 ---
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api/v1';
+const API_BASE = 'https://datamart-dashboard.onrender.com/api/v1';
 
 const retryRequest = async (fn, retries = 2) => {
   try {
