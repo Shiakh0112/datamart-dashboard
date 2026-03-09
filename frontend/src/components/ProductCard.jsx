@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { formatPrice } from '../utils/formatPrice';
 import { Star } from 'lucide-react';
 
 const ProductCard = React.memo(({ product }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="card p-6 animate-scale-in hover:shadow-2xl group">
       <div className="flex items-start justify-between mb-4">
@@ -27,7 +30,10 @@ const ProductCard = React.memo(({ product }) => {
           </div>
         </div>
         
-        <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 active:scale-95">
+        <button 
+          onClick={() => navigate(`/product/${product.id}`)}
+          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 active:scale-95"
+        >
           View Details
         </button>
       </div>
